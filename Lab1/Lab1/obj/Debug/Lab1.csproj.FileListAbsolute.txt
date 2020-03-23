@@ -1,0 +1,5 @@
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab1\Lab1\bin\Debug\Lab1.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab1\Lab1\bin\Debug\Lab1.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab1\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab1\Lab1\obj\Debug\Lab1.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab1\Lab1\obj\Debug\Lab1.pdb

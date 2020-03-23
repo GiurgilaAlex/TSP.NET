@@ -1,0 +1,9 @@
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab2\Lab2\Lab2\bin\Debug\Lab2.exe.config
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab2\Lab2\Lab2\bin\Debug\Lab2.exe
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab2\Lab2\Lab2\bin\Debug\Lab2.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab2\Lab2\Lab2\obj\Debug\Lab2.csprojAssemblyReference.cache
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab2\Lab2\Lab2\obj\Debug\Lab2.Form1.resources
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab2\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab2\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab2\Lab2\Lab2\obj\Debug\Lab2.exe
+G:\Facultate\An 3\Sem 2\TSP.NET\Lab2\Lab2\Lab2\obj\Debug\Lab2.pdb
