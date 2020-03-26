@@ -1,5 +1,4 @@
-﻿using PostComment;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +12,7 @@ namespace Client
 {
     public partial class Form1 : Form
     {
-        List<Post> posts = new List<Post>();
+        List<PostComment.Post> posts = new List<PostComment.Post>();
         public Form1()
         {
             InitializeComponent();
@@ -21,7 +20,7 @@ namespace Client
         // Handler pentru evenimentul Load al ferestrei principale
         private void Form1_Load(object sender, EventArgs e)
         {
-            posts = LoadPosts().ToList<Post>();
+            posts = LoadPosts().ToList<PostComment.Post>();
             dgp.DataSource = posts;
             dgp.Columns[0].Width = 0;
             if (dgp.Rows.Count > 0)
