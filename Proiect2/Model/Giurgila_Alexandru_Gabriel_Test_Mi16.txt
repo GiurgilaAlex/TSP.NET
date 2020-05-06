@@ -1,0 +1,54 @@
+ Giurgila Alexandru Gabriel A7 Miercuri 16:00
+
+R1. 
+	Controlare Comune - buton,
+	Containere - panou,
+	Meiuri si banda de instrumente - StatusStrip,
+	Componente - temporizator,
+	Printare - dialog de imprimare,
+	Dialog - dialog de deschidere a unui fisier,  
+	Data - diagrama,
+	WPF Interoperability - ElementHost
+
+R2.
+	LargeIcon, Details, SmallIcon, List, Tile
+
+R3.
+	Bifat, Nebifat, Nedeterminat
+
+R4.
+	Daca TextBox are readOnly pe true atunci textul nu poate fi modificat dar poate fi selectat, 
+iar daca are Enabled pe false atunci nu putem interactiona in nici un fel cu textBox-ul respectiv.
+
+R5.
+	Conectat: Connection, Command, DataReader, Parameter, Transaction, DataAdapter
+	Deconectat: DataSet, DataTable, DataColumn, DataRow, Contraint, DataRelation, DataView
+
+R6.
+	DataReader este un obiect returnat de metoda ExecuteReader a unui obiect DbCommand si este un cursor peste randuri in fiecare set de rezultate, 
+pe cand DataAdapter este un obiect ce continer 4 obiecte DbCommand fiecare pentru comenzile insert, select, update si delete.
+
+R7.
+	
+R8.
+R9.
+R10.
+R11.
+R12.
+R13.
+	PerCall - o noua instanta a unui obiect InstanceContext este creat inainte si reciclate subsecvent pentru fiecare apelare.
+	PerSession - o noua instanta a unui obiect InstanceContext este creata pentru fiecare sesiune, daca canalul nu creaza o sesiune valoare se comporta ca si cum ar fi perCall 
+	Single - doar un obiect InstanceContext este folosit pentru toate apelarile.
+R14.
+	Interfata expune metode folosite pentru a returna metadate despre un serviciu.
+R15.
+R16.
+
+R17.
+	Un endpoint contine: o adresa, un binding, unul sau mai multe contracte, un comportament.
+R18.
+	Tinand cont ca variabila client nu este atasata contextului, nu se va intampla nimic nici in cazul a, nici in cazul b.
+R19.
+	Tipuri de contract: Service, Operation, Data, Message, Fault.
+R20.  
+	TCP, HTTP, HTTPS si pipe-uri.
