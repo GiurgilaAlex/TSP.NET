@@ -1,0 +1,11 @@
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csprojAssemblyReference.cache
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe.config
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\bin\Debug\EntityFramework.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\bin\Debug\EntityFramework.xml
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\bin\Debug\EntityFramework.SqlServer.xml
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\obj\Debug\MyPhotos.csproj.CopyComplete
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\obj\Debug\MyPhotos.exe
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\MyPhotos\obj\Debug\MyPhotos.pdb

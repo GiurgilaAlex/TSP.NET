@@ -1,0 +1,11 @@
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\bin\Debug\WCF.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\bin\Debug\WCF.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\bin\Debug\MyPhotos.exe
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\bin\Debug\EntityFramework.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\bin\Debug\MyPhotos.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\bin\Debug\MyPhotos.exe.config
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\bin\Debug\EntityFramework.xml
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\obj\Debug\WCF.csprojAssemblyReference.cache
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\obj\Debug\WCF.csproj.CopyComplete
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\obj\Debug\WCF.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\obj\Debug\WCF.pdb

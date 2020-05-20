@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Files" EntityType="Model1.File" />
+    <EntitySet Name="Properties" EntityType="Model1.Property" />
+    <AssociationSet Name="FileProperty" Association="Model1.FileProperty">
+      <End Role="File" EntitySet="Files" />
+      <End Role="Property" EntitySet="Properties" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="File">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Path" Type="String" Nullable="false" />
+    <NavigationProperty Name="Properties" Relationship="Model1.FileProperty" FromRole="File" ToRole="Property" />
+  </EntityType>
+  <EntityType Name="Property">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="Key" Type="String" Nullable="false" />
+    <Property Name="Value" Type="String" Nullable="false" />
+    <NavigationProperty Name="File" Relationship="Model1.FileProperty" FromRole="Property" ToRole="File" />
+    <Property Name="FileId" Type="Guid" Nullable="false" />
+  </EntityType>
+  <Association Name="FileProperty">
+    <End Type="Model1.File" Role="File" Multiplicity="1" />
+    <End Type="Model1.Property" Role="Property" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="File">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Property">
+        <PropertyRef Name="FileId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

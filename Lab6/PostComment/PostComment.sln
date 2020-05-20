@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostWCF", "WCF\HostWCF.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{F6CE89D7-9EC9-491A-9DC6-4CCDF7A7A004}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{D5098D44-7B9D-4EA3-A615-9C01375D8D86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F6CE89D7-9EC9-491A-9DC6-4CCDF7A7A004}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6CE89D7-9EC9-491A-9DC6-4CCDF7A7A004}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6CE89D7-9EC9-491A-9DC6-4CCDF7A7A004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5098D44-7B9D-4EA3-A615-9C01375D8D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5098D44-7B9D-4EA3-A615-9C01375D8D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5098D44-7B9D-4EA3-A615-9C01375D8D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5098D44-7B9D-4EA3-A615-9C01375D8D86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

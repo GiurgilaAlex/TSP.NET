@@ -9,3 +9,14 @@ G:\Facultate\An 3\Sem 2\TSP.NET\githubstuff\Lab6\PostComment\PostComment\obj\Deb
 G:\Facultate\An 3\Sem 2\TSP.NET\githubstuff\Lab6\PostComment\PostComment\obj\Debug\PostComment.csproj.CopyComplete
 G:\Facultate\An 3\Sem 2\TSP.NET\githubstuff\Lab6\PostComment\PostComment\obj\Debug\PostComment.dll
 G:\Facultate\An 3\Sem 2\TSP.NET\githubstuff\Lab6\PostComment\PostComment\obj\Debug\PostComment.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\bin\Debug\PostComment.dll.config
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\bin\Debug\PostComment.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\bin\Debug\PostComment.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\bin\Debug\EntityFramework.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\bin\Debug\EntityFramework.SqlServer.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\bin\Debug\EntityFramework.xml
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\bin\Debug\EntityFramework.SqlServer.xml
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\obj\Debug\PostComment.csprojAssemblyReference.cache
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\obj\Debug\PostComment.csproj.CopyComplete
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\obj\Debug\PostComment.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\TSP.NETGit\TSP.NET\Lab6\PostComment\PostComment\obj\Debug\PostComment.pdb
