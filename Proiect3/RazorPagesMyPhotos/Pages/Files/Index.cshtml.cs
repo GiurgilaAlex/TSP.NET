@@ -1,29 +1,42 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
-using RazorPagesMyPhotos.Data;
 using RazorPagesMyPhotos.Models;
-
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using ServiceReferenceMyPhotos;
 namespace RazorPagesMyPhotos.Pages.Files
 {
     public class IndexModel : PageModel
     {
-        private readonly RazorPagesMyPhotos.Data.RazorPagesMyPhotosContext _context;
+        FilePropertyClient fpc = new FilePropertyClient();
+        public List<FileDTO> Files { get; set; }
 
-        public IndexModel(RazorPagesMyPhotos.Data.RazorPagesMyPhotosContext context)
+        public IndexModel()
         {
-            _context = context;
+            Files = new List<FileDTO>();
         }
-
-        public IList<File> File { get;set; }
-
         public async Task OnGetAsync()
         {
-            File = await _context.File.ToListAsync();
+            var files = await fpc.GetAllFilesAsync();
+            foreach (var item in files)
+            {
+                FileDTO fd = new FileDTO();
+                fd.Id = item.Id;
+                fd.Path = item.Path;
+                fd.Name = item.Name;
+                fd.Properties = new List<PropertyDTO>();
+
+                var properties = await fpc.GetPropertiesByFileIdAsync(item.Id);
+                foreach(var prop in properties)
+                {
+                    PropertyDTO propd = new PropertyDTO();
+                    propd.Id = prop.Id;
+                    propd.Key = prop.Key;
+                    propd.Value = prop.Value;
+                    fd.Properties.Add(propd);
+                }
+
+                Files.Add(fd);
+            }
         }
     }
 }

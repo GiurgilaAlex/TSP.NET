@@ -14,6 +14,8 @@ namespace RazorPagesMyPhotos.Data
         {
         }
 
-        public DbSet<RazorPagesMyPhotos.Models.File> File { get; set; }
+        public DbSet<RazorPagesMyPhotos.Models.FileDTO> File { get; set; }
+
+        public DbSet<RazorPagesMyPhotos.Models.PropertyDTO> PropertyDTO { get; set; }
     }
 }

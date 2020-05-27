@@ -1,0 +1,25 @@
+﻿@page
+@model RazorPagesMyPhotos.Pages.Properties.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Properties</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Keys
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Properties)
+        {
+            <tr style="font-size:small">
+                <td>
+                    @Html.DisplayFor(modelItem => item)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

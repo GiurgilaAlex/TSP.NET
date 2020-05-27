@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Facultate\\An 3\\Sem 2\\TSP.NET\\MyPhotos\\RazorPagesMyPhotos\\RazorPagesMyPhotos.csproj": {}
+    "G:\\Facultate\\An 3\\Sem 2\\TSP.NET\\Backup\\TSP.NET\\Proiect3\\RazorPagesMyPhotos\\RazorPagesMyPhotos.csproj": {}
   },
   "projects": {
-    "G:\\Facultate\\An 3\\Sem 2\\TSP.NET\\MyPhotos\\RazorPagesMyPhotos\\RazorPagesMyPhotos.csproj": {
+    "G:\\Facultate\\An 3\\Sem 2\\TSP.NET\\Backup\\TSP.NET\\Proiect3\\RazorPagesMyPhotos\\RazorPagesMyPhotos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Facultate\\An 3\\Sem 2\\TSP.NET\\MyPhotos\\RazorPagesMyPhotos\\RazorPagesMyPhotos.csproj",
+        "projectUniqueName": "G:\\Facultate\\An 3\\Sem 2\\TSP.NET\\Backup\\TSP.NET\\Proiect3\\RazorPagesMyPhotos\\RazorPagesMyPhotos.csproj",
         "projectName": "RazorPagesMyPhotos",
-        "projectPath": "G:\\Facultate\\An 3\\Sem 2\\TSP.NET\\MyPhotos\\RazorPagesMyPhotos\\RazorPagesMyPhotos.csproj",
+        "projectPath": "G:\\Facultate\\An 3\\Sem 2\\TSP.NET\\Backup\\TSP.NET\\Proiect3\\RazorPagesMyPhotos\\RazorPagesMyPhotos.csproj",
         "packagesPath": "C:\\Users\\giurg\\.nuget\\packages\\",
-        "outputPath": "G:\\Facultate\\An 3\\Sem 2\\TSP.NET\\MyPhotos\\RazorPagesMyPhotos\\obj\\",
+        "outputPath": "G:\\Facultate\\An 3\\Sem 2\\TSP.NET\\Backup\\TSP.NET\\Proiect3\\RazorPagesMyPhotos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,30 +1,33 @@
 ﻿@page
 @model RazorPagesMyPhotos.Pages.Files.IndexModel
-
 @{
     ViewData["Title"] = "Index";
 }
-
-<h1>Index</h1>
-
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
+<h1>Files</h1>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.File[0].Name)
+                Photo
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.File[0].Path)
+                @Html.DisplayNameFor(model => model.Files[0].Name)
             </th>
-            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.Files[0].Path)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Files[0].Properties)
+            </th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.File) {
-        <tr>
+        @foreach (var item in Model.Files)
+        {
+        <tr style="font-size:small">
+            <td>
+                <img src="@Url.Content(item.Path)" alt="Image" style="height:100px;width:100px;" />
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
@@ -32,11 +35,12 @@
                 @Html.DisplayFor(modelItem => item.Path)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                @foreach (var prop in item.Properties)
+                {
+                    <p>@prop.Key : @prop.Value</p>
+                }
             </td>
         </tr>
-}
+        }
     </tbody>
 </table>

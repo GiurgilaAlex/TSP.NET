@@ -12,3 +12,17 @@ G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\HostWCF\obj\Debug\HostWCF.csprojAssembl
 G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
 G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\HostWCF\obj\Debug\HostWCF.exe
 G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\HostWCF\obj\Debug\HostWCF.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\bin\Debug\HostWCF.exe.config
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\bin\Debug\HostWCF.exe
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\bin\Debug\HostWCF.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\bin\Debug\WCF.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\bin\Debug\MyPhotos.exe
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\bin\Debug\EntityFramework.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\bin\Debug\WCF.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\bin\Debug\MyPhotos.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\bin\Debug\MyPhotos.exe.config
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\bin\Debug\EntityFramework.xml
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\obj\Debug\HostWCF.exe
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\HostWCF\obj\Debug\HostWCF.pdb

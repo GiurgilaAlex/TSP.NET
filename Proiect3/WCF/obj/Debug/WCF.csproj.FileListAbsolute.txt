@@ -9,3 +9,14 @@ G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\obj\Debug\WCF.csprojAssemblyReferen
 G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\obj\Debug\WCF.csproj.CopyComplete
 G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\obj\Debug\WCF.dll
 G:\Facultate\An 3\Sem 2\TSP.NET\MyPhotos\WCF\obj\Debug\WCF.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\bin\Debug\WCF.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\bin\Debug\WCF.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\bin\Debug\MyPhotos.exe
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\bin\Debug\EntityFramework.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\bin\Debug\MyPhotos.pdb
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\bin\Debug\MyPhotos.exe.config
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\bin\Debug\EntityFramework.xml
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\obj\Debug\WCF.csprojAssemblyReference.cache
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\obj\Debug\WCF.csproj.CopyComplete
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\obj\Debug\WCF.dll
+G:\Facultate\An 3\Sem 2\TSP.NET\Backup\TSP.NET\Proiect3\WCF\obj\Debug\WCF.pdb

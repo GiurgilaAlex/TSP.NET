@@ -1,0 +1,69 @@
+﻿@page
+@model RazorPagesMyPhotos.Pages.SearchModel
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h1>Search</h1>
+<p>Choose a property and a value for it and see if there is any file matching your input.</p>
+
+<form>
+    <label> Key: </label>
+    <select asp-for="KeyInput" asp-items="Model.KeysInput">
+        @foreach (var prop in Model.Properties)
+        {
+            <option value="@prop">@prop</option>
+        }
+    </select>
+
+    <label> Value: </label>
+    <input asp-for="ValueInput" />
+
+    <input type="submit" value="Search" />
+</form>
+
+<label>Items found: </label>
+@Model.Files.Count
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Photo
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Files[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Files[0].Path)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Files[0].Properties)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Files)
+        {
+            <tr style="font-size:small">
+                <td>
+                    <img src="@Url.Content(item.Path)" alt="Image" style="height:100px;width:100px;" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Path)
+                </td>
+                <td>
+                    @foreach (var prop in item.Properties)
+                    {
+                        <p>@prop.Key : @prop.Value</p>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
